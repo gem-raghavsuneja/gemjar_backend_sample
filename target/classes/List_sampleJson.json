@@ -1,0 +1,15 @@
+{
+  "gemName": "JavaGem",
+  "why": [
+    {
+      "title": "Open Source",
+      "content": "Content for Open Source"
+    }
+  ],
+  "use": [
+    {
+      "title": "Custom Reporting",
+      "content": "Content for Custom Reporting"
+    }
+  ]
+}

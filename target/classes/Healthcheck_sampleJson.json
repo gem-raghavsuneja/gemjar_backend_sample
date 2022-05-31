@@ -1,0 +1,410 @@
+[
+  {
+    "test_name": "Test Case to get all users",
+    "method": "Get",
+    "endpoint": "https://gorest.co.in/public/v2/users",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Create random",
+    "method": "POST",
+    "endpoint": "https://gorest.co.in/public/v2/users",
+    "expected_status": 201,
+    "request_body": {
+      "name": "#test_response[0](3)(name)#",
+      "email": "User_#curr-ddMMyyyyhhmmss#@org.com",
+      "gender": "#test_response[0](1)(gender)#",
+      "status": "#test_response[0](2)(status)#"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "get random users",
+    "method": "Get",
+    "endpoint": "https://gorest.co.in/public/v2/users",
+    "expected_status": 200,
+    "parameters": {
+      "gender": "#test_response[1](gender)#",
+      "status": "#test_response[1](status)#"
+    },
+    "post_validation": {
+      "data(1)(gender)": "TO #test_response[0](1)(gender)#",
+      "data(2)(status)": "TO #test_response[0](2)(status)#"
+    }
+  },
+  {
+    "test_name": "Test Case to get all users",
+    "method": "Get",
+    "endpoint": "https://restcountries.com/v3.1/all",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Tes",
+    "method": "Get",
+    "endpoint": "https://restcountries.com/v3.1/name/#test_response[3](0)(name)(official)#",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Create user",
+    "method": "POST",
+    "endpoint": "https://reqres.in/api/users",
+    "expected_status": 201,
+    "request_body": {
+      "name": "#test_response[0](3)(name)##unique-3#",
+      "job": "#alpha-4#"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "Register user",
+    "method": "POST",
+    "endpoint": "https://reqres.in/api/register",
+    "expected_status": 200,
+    "request_body": {
+      "email": "eve.holt@reqres.in",
+      "password": "pistol"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "Test Case to get all users",
+    "method": "Get",
+    "endpoint": "https://reqres.in/api/users?delay=3",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Register user",
+    "method": "POST",
+    "endpoint": "https://reqres.in/api/register",
+    "expected_status": 200,
+    "request_body": {
+      "email": "#test_response[7](data)(1)(email)",
+      "password": "pistol"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "Test Case to get all weather forecast",
+    "method": "Get",
+    "endpoint": "http://www.7timer.info/bin/api.pl",
+    "expected_status": 200,
+    "parameters": {
+      "lon": "113.17",
+      "lat": "23.09",
+      "product": "astro",
+      "output": "json"
+    }
+  },
+  {
+    "test_name": "Test Case to get all weather forecast",
+    "method": "Get",
+    "endpoint": "https://api.agify.io?name=bella",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Test Case to get all entries",
+    "method": "Get",
+    "endpoint": "https://api.publicapis.org/entries",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Create s run id",
+    "method": "POST",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 201,
+    "request_body": {
+      "s_run_id": "PYGEM_PROJECT_BETA_#curr-ddMMyyyyhhmmss#",
+      "s_start_time": 1648730506509.737,
+      "s_end_time": 1648730506767.352,
+      " status": "FAIL",
+      "project_name": "pygem_project",
+      "run_type": "ON DEMAND",
+      "s_report_type": null,
+      "user": "kiran",
+      "env": "beta",
+      "machine": "csgeek",
+      "initiated_by": "kiran",
+      "run_mode": "LINUX_CLI",
+      "miscData": [],
+      "s_id": "test_id"
+    }
+  },
+  {
+    "test_name": "Test Case to get users",
+    "method": "Get",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 200,
+    "parameters": {
+      "s_run_id": "#test_response[12](data)(s_run_id)#"
+    }
+  },
+  {
+    "test_name": "Test Case to match the machine",
+    "method": "Get",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 200,
+    "parameters": {
+      "s_run_id": "#test_response[12](data)(s_run_id)#"
+    },
+    "post_validation": {
+      "deepsearch(machine)": "IN [csgeek,akash,hello]"
+    }
+  },
+  {
+    "test_name": "Test Case to match the machine",
+    "method": "Get",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 200,
+    "parameters": {
+      "s_run_id": "#test_response[12](data)(s_run_id)#"
+    },
+    "post_validation": {
+      "deepsearch(machine)": "Contains geek"
+    }
+  },
+  {
+    "test_name": "Test Case to get all users",
+    "method": "Get",
+    "endpoint": "https://gorest.co.in/public/v2/users",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Create random",
+    "method": "POST",
+    "endpoint": "https://gorest.co.in/public/v2/users",
+    "expected_status": 201,
+    "request_body": {
+      "name": "#test_response[0](3)(name)#",
+      "email": "User_#curr-ddMMyyyyhhmmss#@org.com",
+      "gender": "#test_response[0](1)(gender)#",
+      "status": "#test_response[0](2)(status)#"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "get random users",
+    "method": "Get",
+    "endpoint": "https://gorest.co.in/public/v2/users",
+    "expected_status": 200,
+    "parameters": {
+      "gender": "#test_response[1](gender)#",
+      "status": "#test_response[1](status)#"
+    },
+    "post_validation": {
+      "data(1)(gender)": "TO #test_response[0](1)(gender)#",
+      "data(2)(status)": "TO #test_response[0](2)(status)#"
+    }
+  },
+  {
+    "test_name": "Test Case to get all users",
+    "method": "Get",
+    "endpoint": "https://restcountries.com/v3.1/all",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Tes",
+    "method": "Get",
+    "endpoint": "https://restcountries.com/v3.1/name/#test_response[3](0)(name)(official)#",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Create user",
+    "method": "POST",
+    "endpoint": "https://reqres.in/api/users",
+    "expected_status": 201,
+    "request_body": {
+      "name": "#test_response[0](3)(name)##unique-3#",
+      "job": "#alpha-4#"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "Register user",
+    "method": "POST",
+    "endpoint": "https://reqres.in/api/register",
+    "expected_status": 200,
+    "request_body": {
+      "email": "eve.holt@reqres.in",
+      "password": "pistol"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "Test Case to get all users",
+    "method": "Get",
+    "endpoint": "https://reqres.in/api/users?delay=3",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Register user",
+    "method": "POST",
+    "endpoint": "https://reqres.in/api/register",
+    "expected_status": 200,
+    "request_body": {
+      "email": "#test_response[7](data)(1)(email)",
+      "password": "pistol"
+    },
+    "headers": {
+      "Authorization": "Bearer e44ac095d53abb1da69ff4cdc9c0bc24ea741dbc7cbe6f2ba2dfdbec9cb1ecd4"
+    }
+  },
+  {
+    "test_name": "Test Case to get all weather forecast",
+    "method": "Get",
+    "endpoint": "http://www.7timer.info/bin/api.pl",
+    "expected_status": 200,
+    "parameters": {
+      "lon": "113.17",
+      "lat": "23.09",
+      "product": "astro",
+      "output": "json"
+    }
+  },
+  {
+    "test_name": "Test Case to get all weather forecast",
+    "method": "Get",
+    "endpoint": "https://api.agify.io?name=bella",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Test Case to get all entries",
+    "method": "Get",
+    "endpoint": "https://api.publicapis.org/entries",
+    "expected_status": 200
+  },
+  {
+    "test_name": "Create s run id",
+    "method": "POST",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 201,
+    "request_body": {
+      "s_run_id": "PYGEM_PROJECT_BETA_#curr-ddMMyyyyhhmmss#",
+      "s_start_time": 1648730506509.737,
+      "s_end_time": 1648730506767.352,
+      " status": "FAIL",
+      "project_name": "pygem_project",
+      "run_type": "ON DEMAND",
+      "s_report_type": null,
+      "user": "kiran",
+      "env": "beta",
+      "machine": "csgeek",
+      "initiated_by": "kiran",
+      "run_mode": "LINUX_CLI",
+      "miscData": [],
+      "s_id": "test_id"
+    }
+  },
+  {
+    "test_name": "Test Case to get users",
+    "method": "Get",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 200,
+    "parameters": {
+      "s_run_id": "#test_response[12](data)(s_run_id)#"
+    }
+  },
+  {
+    "test_name": "Test Case to match the machine",
+    "method": "Get",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 200,
+    "parameters": {
+      "s_run_id": "#test_response[12](data)(s_run_id)#"
+    },
+    "post_validation": {
+      "deepsearch(machine)": "IN [csgeek,akash,hello]"
+    }
+  },
+  {
+    "test_name": "Test Case to match the machine",
+    "method": "Get",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 200,
+    "parameters": {
+      "s_run_id": "#test_response[12](data)(s_run_id)#"
+    },
+    "post_validation": {
+      "deepsearch(machine)": "Contains geek"
+    }
+  },
+  {
+    "test_name": "Create S_run_id",
+    "method": "POST",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 201,
+    "request_body": {
+      "s_run_id": "PYGEM_PROJECT_BETA_-#UNQ-40_5#",
+      "s_start_time": 1648730506509.737,
+      "s_end_time": 1648730506767.352,
+      " status": "FAIL",
+      "project_name": "pygem_project",
+      "run_type": "ON DEMAND",
+      "s_report_type": null,
+      "user": "kiran",
+      "env": "beta",
+      "machine": "csgeek",
+      "initiated_by": "kiran",
+      "run_mode": "LINUX_CLI",
+      "miscData": [],
+      "s_id": "test_id"
+    }
+  },
+  {
+    "test_name": "Create S_run_id__UUID",
+    "method": "POST",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 201,
+    "request_body": {
+      "s_run_id": "PYGEM_PROJECT_BETA_#uuid#",
+      "s_start_time": 1648730506509.737,
+      "s_end_time": 1648730506767.352,
+      " status": "FAIL",
+      "project_name": "pygem_project",
+      "run_type": "ON DEMAND",
+      "s_report_type": null,
+      "user": "kiran",
+      "env": "beta",
+      "machine": "csgeek",
+      "initiated_by": "kiran",
+      "run_mode": "LINUX_CLI",
+      "miscData": [],
+      "s_id": "test_id"
+    }
+  },
+  {
+    "test_name": "Create S_run_id_random negative range",
+    "method": "POST",
+    "endpoint": "http://ec2-3-108-218-108.ap-south-1.compute.amazonaws.com:8080/suiteexe",
+    "expected_status": 201,
+    "request_body": {
+      "s_run_id": "PYGEM_PROJECT_BETA_#unq-(-15)_9#",
+      "s_start_time": 1648730506509.737,
+      "s_end_time": 1648730506767.352,
+      " status": "FAIL",
+      "project_name": "pygem_project",
+      "run_type": "ON DEMAND",
+      "s_report_type": null,
+      "user": "kiran",
+      "env": "beta",
+      "machine": "csgeek",
+      "initiated_by": "kiran",
+      "run_mode": "LINUX_CLI",
+      "miscData": [],
+      "s_id": "test_id"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "env": "beta",
+  "initiated_by": "akash",
+  "machine": "gsg1pm-gi0346",
+  "miscData": [],
+  "project_name": "Quantic_sample",
+  "run_mode": "Linux",
+  "run_type": "ON DEMAND",
+  "s_end_time": 1652181112807,
+  "s_id": "test_id",
+  "s_report_type": null,
+  "s_run_id": "Quantic_sample_1652181105612_adsasasdsdaBETAaa",
+  "s_start_time": 1652181105613,
+  "status": "PASS",
+  "user": "akash"
+}

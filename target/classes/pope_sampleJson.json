@@ -1,0 +1,509 @@
+[{
+  "reportProduct": "GEMJAR",
+  "Suits_Details": {
+    "report_type": "UI Automation",
+    "s_run_id": "Quantic_sample_1652261188668_BETA",
+    "s_start_time": 1652261188669,
+    "s_end_time": 1652261235092,
+    "status": "PASS",
+    "project_name": "Quantic_sample",
+    "run_type": "ON DEMAND",
+    "user": "akash",
+    "env": "beta",
+    "machine": "gsg1pm-gi0346",
+    "initiated_by": "akash",
+    "run_mode": "Linux",
+    "TestCase_Details": [{
+      "tc_run_id": "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907",
+      "start_time": 1.65226113E12,
+      "end_time": 1.65226126E12,
+      "name": "launchedAmazon",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }, {
+      "tc_run_id": "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872",
+      "start_time": 1.65226126E12,
+      "end_time": 1.65226126E12,
+      "name": "seeMoreFunctionality",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }],
+    "Testcase_Info": {
+      "FAIL": 0,
+      "PASS": 2,
+      "TOTAL": 2
+    }
+  },
+  "TestStep_Details": {
+    "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907": {
+      "steps": [{
+        "title": "<b>Validating URL</b>",
+        "description": "Expected: Amazon.in<br>Current: Amazon.in",
+        "status": "PASS",
+        "ScreenShot": "SS/SS1652261211361.png"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Minimize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Maximize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>Size of browser</b>",
+        "description": "(1366, 736)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Set Browser Size</b>",
+        "description": "Browser Size Set To <BR> width ~ 1200<BR> height ~ 644",
+        "status": "PASS"
+      }, {
+        "title": "<b>Browser Location</b>",
+        "description": "(-15, 23)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "launchedAmazon",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226113E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226113E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "131.072 seconds"
+      }, {
+        "TOTAL": 7,
+        "PASS": 7
+      }]
+    },
+    "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872": {
+      "steps": [{
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "seeMoreFunctionality",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226126E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "0.0 seconds"
+      }, {
+        "TOTAL": 1,
+        "PASS": 1
+      }]
+    }
+  }
+},{
+  "reportProduct": "GEMJAR",
+  "Suits_Details": {
+    "report_type": "UI Automation",
+    "s_run_id": "Quantic_sample_1652261188668_BETA",
+    "s_start_time": 1652261188669,
+    "s_end_time": 1652261235092,
+    "status": "PASS",
+    "project_name": "Quantic_sample",
+    "run_type": "ON DEMAND",
+    "user": "akash",
+    "env": "beta",
+    "machine": "gsg1pm-gi0346",
+    "initiated_by": "akash",
+    "run_mode": "Linux",
+    "TestCase_Details": [{
+      "tc_run_id": "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907",
+      "start_time": 1.65226113E12,
+      "end_time": 1.65226126E12,
+      "name": "launchedAmazon",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }, {
+      "tc_run_id": "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872",
+      "start_time": 1.65226126E12,
+      "end_time": 1.65226126E12,
+      "name": "seeMoreFunctionality",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }],
+    "Testcase_Info": {
+      "FAIL": 0,
+      "PASS": 2,
+      "TOTAL": 2
+    }
+  },
+  "TestStep_Details": {
+    "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907": {
+      "steps": [{
+        "title": "<b>Validating URL</b>",
+        "description": "Expected: Amazon.in<br>Current: Amazon.in",
+        "status": "PASS",
+        "ScreenShot": "SS/SS1652261211361.png"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Minimize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Maximize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>Size of browser</b>",
+        "description": "(1366, 736)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Set Browser Size</b>",
+        "description": "Browser Size Set To <BR> width ~ 1200<BR> height ~ 644",
+        "status": "PASS"
+      }, {
+        "title": "<b>Browser Location</b>",
+        "description": "(-15, 23)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "launchedAmazon",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226113E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226113E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "131.072 seconds"
+      }, {
+        "TOTAL": 7,
+        "PASS": 7
+      }]
+    },
+    "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872": {
+      "steps": [{
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "seeMoreFunctionality",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226126E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "0.0 seconds"
+      }, {
+        "TOTAL": 1,
+        "PASS": 1
+      }]
+    }
+  }
+},{
+  "reportProduct": "GEMJAR",
+  "Suits_Details": {
+    "report_type": "UI Automation",
+    "s_run_id": "Quantic_sample_1652261188668_BETA",
+    "s_start_time": 1652261188669,
+    "s_end_time": 1652261235092,
+    "status": "PASS",
+    "project_name": "Quantic_sample",
+    "run_type": "ON DEMAND",
+    "user": "akash",
+    "env": "beta",
+    "machine": "gsg1pm-gi0346",
+    "initiated_by": "akash",
+    "run_mode": "Linux",
+    "TestCase_Details": [{
+      "tc_run_id": "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907",
+      "start_time": 1.65226113E12,
+      "end_time": 1.65226126E12,
+      "name": "launchedAmazon",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }, {
+      "tc_run_id": "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872",
+      "start_time": 1.65226126E12,
+      "end_time": 1.65226126E12,
+      "name": "seeMoreFunctionality",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }],
+    "Testcase_Info": {
+      "FAIL": 0,
+      "PASS": 2,
+      "TOTAL": 2
+    }
+  },
+  "TestStep_Details": {
+    "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907": {
+      "steps": [{
+        "title": "<b>Validating URL</b>",
+        "description": "Expected: Amazon.in<br>Current: Amazon.in",
+        "status": "PASS",
+        "ScreenShot": "SS/SS1652261211361.png"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Minimize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Maximize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>Size of browser</b>",
+        "description": "(1366, 736)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Set Browser Size</b>",
+        "description": "Browser Size Set To <BR> width ~ 1200<BR> height ~ 644",
+        "status": "PASS"
+      }, {
+        "title": "<b>Browser Location</b>",
+        "description": "(-15, 23)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "launchedAmazon",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226113E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226113E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "131.072 seconds"
+      }, {
+        "TOTAL": 7,
+        "PASS": 7
+      }]
+    },
+    "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872": {
+      "steps": [{
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "seeMoreFunctionality",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226126E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "0.0 seconds"
+      }, {
+        "TOTAL": 1,
+        "PASS": 1
+      }]
+    }
+  }
+},{
+  "reportProduct": "GEMJAR",
+  "Suits_Details": {
+    "report_type": "UI Automation",
+    "s_run_id": "Quantic_sample_1652261188668_BETA",
+    "s_start_time": 1652261188669,
+    "s_end_time": 1652261235092,
+    "status": "PASS",
+    "project_name": "Quantic_sample",
+    "run_type": "ON DEMAND",
+    "user": "akash",
+    "env": "beta",
+    "machine": "gsg1pm-gi0346",
+    "initiated_by": "akash",
+    "run_mode": "Linux",
+    "TestCase_Details": [{
+      "tc_run_id": "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907",
+      "start_time": 1.65226113E12,
+      "end_time": 1.65226126E12,
+      "name": "launchedAmazon",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }, {
+      "tc_run_id": "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872",
+      "start_time": 1.65226126E12,
+      "end_time": 1.65226126E12,
+      "name": "seeMoreFunctionality",
+      "category": "Method",
+      "status": "PASS",
+      "user": "akash",
+      "machine": "gsg1pm-gi0346",
+      "product_type": "GEMJAR",
+      "ignore": false
+    }],
+    "Testcase_Info": {
+      "FAIL": 0,
+      "PASS": 2,
+      "TOTAL": 2
+    }
+  },
+  "TestStep_Details": {
+    "launchedAmazon_1462999f-78a7-40f2-aa6d-50e520e90907": {
+      "steps": [{
+        "title": "<b>Validating URL</b>",
+        "description": "Expected: Amazon.in<br>Current: Amazon.in",
+        "status": "PASS",
+        "ScreenShot": "SS/SS1652261211361.png"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Minimize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>action</b>",
+        "description": "Maximize browser",
+        "status": "PASS"
+      }, {
+        "title": "<b>Size of browser</b>",
+        "description": "(1366, 736)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Set Browser Size</b>",
+        "description": "Browser Size Set To <BR> width ~ 1200<BR> height ~ 644",
+        "status": "PASS"
+      }, {
+        "title": "<b>Browser Location</b>",
+        "description": "(-15, 23)",
+        "status": "PASS"
+      }, {
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "launchedAmazon",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226113E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226113E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "131.072 seconds"
+      }, {
+        "TOTAL": 7,
+        "PASS": 7
+      }]
+    },
+    "seeMoreFunctionality_bca5a132-0e99-4ae6-9db2-ce5ac33da872": {
+      "steps": [{
+        "title": "<b>Close Driver</b>",
+        "description": "Driver Close Successful",
+        "status": "PASS"
+      }],
+      "metaData": [{
+        "TESTCASE NAME": "seeMoreFunctionality",
+        "SERVICE PROJECT": "",
+        "DATE OF EXECUTION": {
+          "value": 1.65226126E12,
+          "type": "date"
+        }
+      }, {
+        "EXECUTION STARTED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION ENDED ON": {
+          "value": 1.65226126E12,
+          "type": "date"
+        },
+        "EXECUTION DURATION": "0.0 seconds"
+      }, {
+        "TOTAL": 1,
+        "PASS": 1
+      }]
+    }
+  }
+}]
